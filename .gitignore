@@ -1,2 +1,4 @@
 # ignore all executables duh
 *.exe
+
+buildcheck.cpp
