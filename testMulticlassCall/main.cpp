@@ -1,3 +1,4 @@
+#include "add.h"
 #include <iostream>
 
 int add(int, int); // forward dec

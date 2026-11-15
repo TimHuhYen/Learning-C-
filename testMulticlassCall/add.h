@@ -1,0 +1,1 @@
+int add(int, int); //func proto for add.h
