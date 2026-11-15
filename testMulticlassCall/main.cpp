@@ -1,12 +1,10 @@
 #include <iostream>
 
-// making sure to put input.cpp function as header
-int getNum();
+int add(int, int); // forward dec
 
 int main()
 {
+    std::cout << "The sum of 6 and 7 is " << add(6, 7) << '\n';
 
-    int x{getNum()};
-    std::cout << "The number is: " << x << '\n';
-
+    return 0;
 }
