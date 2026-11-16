@@ -1,18 +1,17 @@
-#include "add.h"
-#include <iostream>
-#include "joe.h"
+#include "square.h"
+#include "wave.h"
 
-int add(int, int); // forward dec
+#include <iostream>
+#include <cstdlib>
 
 int main()
 {
-    #ifdef RUN
-    std::cout << "The sum of 6 and 7 is " << add(6, 7) << '\n';
-    #endif
+    std::cout << "Enter a number to be squared: ";
+    
+    int x;
+    std::cin >> x;
 
-    #ifdef JOE
-    std::cout << "Hello, my name is " << JOE << '\n';
-    #endif
+    std::cout << "The square of " << x << " is: " << square(x) << '\n';
     
     return 0;
 }
